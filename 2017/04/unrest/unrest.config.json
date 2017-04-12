@@ -1,0 +1,10 @@
+{
+  "defaults": {
+    "host": "https://jsonplaceholder.typicode.com"
+  },
+   "client": {
+    "connection": {
+       "rejectUnauthorized": false
+    }
+  }
+}

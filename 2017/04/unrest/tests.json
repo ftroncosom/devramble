@@ -1,0 +1,12 @@
+{
+  "postList": {
+	"request": {
+		"endpoint": "/posts"
+	}
+  },
+  "singlePost": {
+	"request": {
+		"endpoint": "/posts/${postId}"
+	}
+  }
+}
