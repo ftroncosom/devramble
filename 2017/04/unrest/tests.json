@@ -1,7 +1,10 @@
 {
   "postList": {
 	"request": {
-		"endpoint": "/posts"
+		"endpoint": "/posts",
+		"headers": {
+			"Accept": "application/xml"
+		}
 	}
   },
   "singlePost": {

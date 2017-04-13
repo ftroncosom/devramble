@@ -1,6 +1,9 @@
 {
   "defaults": {
-    "host": "https://jsonplaceholder.typicode.com"
+    "host": "https://jsonplaceholder.typicode.com",
+    "headers": {
+		"Accept": "application/json"
+    }
   },
    "client": {
     "connection": {
