@@ -11,5 +11,27 @@
 	"request": {
 		"endpoint": "/posts/${postId}"
 	}
+  },
+  "createPost": {
+	"request": {
+		"endpoint": "/posts",
+		"headers": {
+			"Content-Type": "application.json"
+		},
+		"body": {
+			"content": "{\"userId\": 1, \"title\": \"some title\", \"body\": \"some body\"}"
+		}
+	}
+  },
+  "createPostFromFile": {
+		"request": {
+			"endpoint": "/posts",
+			"headers": {
+				"Content-Type": "application.json"
+			},
+			"body": {
+				"file": "post_data.json"
+			}
+	}
   }
 }
