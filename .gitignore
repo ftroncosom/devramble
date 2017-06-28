@@ -17,3 +17,7 @@
 /2016/08/ejb-money-client/dist/
 /2016/08/ejb-money-client/build/
 /2016/08/curtimemod/node_modules
+/2017/06/microservices/eureka-server/target/
+/2017/06/microservices/user-service/target/
+/2017/06/microservices/msg-service/target/
+/2017/06/microservices/config-server/target/
