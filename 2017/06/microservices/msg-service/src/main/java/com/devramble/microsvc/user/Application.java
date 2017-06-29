@@ -1,11 +1,3 @@
-/*
- * 
- * Copyright (c) Vektorsoft Ltd. (http://www.vektorsoft.com)
- * 
- * Unauthorized copying of this file, or any part of it, via any medium ,is strictly prohibited.
- * Content of this file is proprietary and confidential.
- * 
- */
 
 package com.devramble.microsvc.user;
 
