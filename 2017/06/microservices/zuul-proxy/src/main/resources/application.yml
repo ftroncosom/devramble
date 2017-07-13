@@ -1,0 +1,12 @@
+
+server:
+    port: 9000
+    
+zuul:
+  ignoredServices: '*'
+  prefix: /api/v1
+  routes:
+    users:
+      path: /users/**
+      serviceId: user-service
+      stripPrefix: false

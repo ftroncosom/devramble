@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: zuul-proxy
+    cloud:
+        config:
+            uri: http://localhost:8888
