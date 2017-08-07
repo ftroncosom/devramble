@@ -14,10 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessageController {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(MessageController.class);
+    
+//    @Autowired
+//    private GaugeService gauge;
 
     @RequestMapping (method = RequestMethod.POST, value = "/send-email", consumes = {MediaType.TEXT_PLAIN_VALUE})
     public void sendMessage(@RequestBody String address) {
         
         LOGGER.info("Sending memail to address {}", address);
+        // moved to interceptor
+        //gauge.submit("msg.gauge.value", Math.random() * 100);
     }
 }
