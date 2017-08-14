@@ -21,7 +21,7 @@
     </properties>
     
     
-     <dependencyManagement>
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -56,7 +56,24 @@
             <artifactId>logstash-logback-encoder</artifactId>
             <version>4.11</version>
         </dependency>
+        <dependency>
+            <groupId>com.btmatthews.springboot</groupId>
+            <artifactId>memcached-spring-boot-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
+    
+    <profiles>
+        <profile>
+            <id>redis</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-data-redis</artifactId>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
     
    
 </project>
